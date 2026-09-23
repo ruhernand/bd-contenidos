@@ -467,7 +467,10 @@ Escribe una consulta para seleccionar las reproducciones (`reproducciones`) de l
 
 Solución:
 ```sql
-
+-- Run this query to get the database schema
+select reproducciones
+from cancion
+where reproducciones < 1000000;
 ```
 
 | reproducciones |
