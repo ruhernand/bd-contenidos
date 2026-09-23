@@ -264,8 +264,10 @@ Escribe una consulta SQL para seleccionar las columnas título (`titulo`) y repr
 
 Solución:
 ```sql
-
+-- Run this query to get the database schema
+select titulo, reproducciones from cancion_muestra order by reproducciones desc
 ```
+
 
 | titulo                | reproducciones |
 | --------------------- | -------------- |
