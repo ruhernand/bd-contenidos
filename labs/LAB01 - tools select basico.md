@@ -493,7 +493,10 @@ Escribe otra consulta para seleccionar el género (`genero`) y el idioma (`idiom
 
 Solución:
 ```sql
-
+-- Run this query to get the database schema
+select distinct genero, idioma
+from cancion
+where reproducciones < 1000000;
 ```
 
 | genero | idioma |
