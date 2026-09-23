@@ -410,7 +410,9 @@ Escribe una consulta para seleccionar las distintas combinaciones de país (`pai
 
 Solución:
 ```sql
-
+-- Run this query to get the database schema
+select distinct pais, genero 
+from cancion
 ```
 
 | pais           | genero |
