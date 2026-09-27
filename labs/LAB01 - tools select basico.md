@@ -719,7 +719,9 @@ Escribe una consulta que calcule y devuelva una columna llamada `porcentaje_me_g
 
 Solución:
 ```sql
-
+select Round ( (me_gusta*100.0)/reproducciones, 1) as porcentaje_me_gusta 
+from cancion
+limit 10;
 ```
 
 | porcentaje_me_gusta |
