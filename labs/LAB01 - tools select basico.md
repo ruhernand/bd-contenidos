@@ -566,7 +566,9 @@ Utiliza el operador not para seleccionar las canciones (solo las columnas `titul
 
 Solución:
 ```sql
-
+select titulo, genero, pais
+from cancion
+where not genero = 'Rap';
 ```
 
 | titulo                     | genero | pais           |
