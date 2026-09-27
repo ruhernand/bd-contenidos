@@ -788,6 +788,8 @@ Escribe una consulta que calcule y devuelva una columna llamada `que_donde` que 
 
 Solución:
 ```sql
+select distinct genero ||' '|| pais as que_donde 
+from cancion;
 
 ```
 
