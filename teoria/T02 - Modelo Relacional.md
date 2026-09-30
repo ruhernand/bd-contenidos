@@ -1,4 +1,4 @@
-# Modelo Relacional
+aa# Modelo Relacional
 
 ---
 tags: database, lecture, relational-model
